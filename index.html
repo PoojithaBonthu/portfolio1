@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="portfolio.css">
+    
+    
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="head">
+                <!-- Name or Title -->
+                <div>
+                    <h1 class="nam">Bonthu Poojitha</h1>
+                </div>
+    
+                <!-- Navigation links -->
+                <div class="nav2">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Hamburger menu (visible on small screens) -->
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+
+
+     <section class="name-container">
+        <div class="container1">
+            <div class="row align-items-center">
+                <!-- Text Section -->
+                <div class="col-12 col-md-6 text-center text-md-left">
+                    <h1>Hi, I'm <span class="name">Bonthu Poojitha</span></h1>
+                    <p class="para">I'm a passionate web developer with skills in HTML, CSS, JavaScript, and more.</p>
+                    <a href = "#contact"><button class = "button-1">Contact</button></a>
+                </div>
+                <!-- Image Section -->
+                <div class="col-12 col-md-6 text-center pt-2">
+                    <img src="/home/rguktrkvalley/Downloads/IMG_20250205_171455.jpg" class="pic1 " alt="Bonthu Poojitha"/>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Hi! I'm <strong>Bonthu Poojitha</strong>, a dedicated <strong>Web Developer</strong> with a passion for building
+            user-friendly, high-performance websites and applicatins.
+        
+            I'm passionate abot crafting well-structured,intuitive,and engaging web applicatinsthat enhance
+            the user experience.
+        </p>
+    </section>
+    
+    
+    
+ <section id="skills">
+        <h1>Skills</h1>
+        <div class="skills-container">
+            <div class="skill-card html">
+                <i class="fa-brands fa-html5" style="color: #E34F26;"></i>
+                <h3>HTML</h3>
+                <div class="progress-bar"><div class="progress" style="width: 90%;">95%</div></div>
+            </div>
+            <div class="skill-card css">
+                <i class="fa-brands fa-css3-alt" style="color: #1572B6;"></i>
+                <h3>CSS</h3>
+                <div class="progress-bar"><div class="progress" style="width: 85%;">90%</div></div>
+            </div>
+            <div class="skill-card javascript">
+                <i class="fa-brands fa-js" style="color: #F7DF1E;"></i>
+                <h3>JavaScript</h3>
+                <div class="progress-bar"><div class="progress" style="width: 80%;">75%</div></div>
+            </div>
+            <div class="skill-card bootstrap">
+                <i class="fa-brands fa-bootstrap" style="color: #7952B3;"></i>
+                <h3>Bootstrap</h3>
+                <div class="progress-bar"><div class="progress" style="width: 75%;">80%</div></div>
+            </div>
+            <div class="skill-card mysql">
+                <i class="fa-solid fa-database" style="color: #4479A1;"></i>
+                <h3>MySQL</h3>
+                <div class="progress-bar"><div class="progress" style="width: 70%;">75%</div></div>
+            </div>
+            <div class="skill-card nodejs">
+                <i class="fa-brands fa-node-js" style="color: #68A063;"></i>
+                <h3>Node.js</h3>
+                <div class="progress-bar"><div class="progress" style="width: 65%;">65%</div></div>
+            </div>
+            <div class="skill-card react">
+                <i class="fa-brands fa-react" style="color: #61DAFB;"></i>
+                <h3>ReactJS</h3>
+                <div class="progress-bar"><div class="progress" style="width: 60%;">60%</div></div>
+            </div>
+            <div class="skill-card c">
+                <i class="fa-solid fa-code" style="color: #A8B9CC;"></i>
+                <h3>C</h3>
+                <div class="progress-bar"><div class="progress" style="width: 70%;">60%</div></div>
+            </div>
+            <div class="skill-card python">
+                <i class="fa-brands fa-python" style="color: #3776AB;"></i>
+                <h3>Python</h3>
+                <div class="progress-bar"><div class="progress" style="width: 80%;">80%</div></div>
+            </div>
+            <div class="skill-card java">
+                <i class="fa-brands fa-java" style="color: #007396;"></i>
+                <h3>Java</h3>
+                <div class="progress-bar"><div class="progress" style="width: 75%;">60%</div></div>
+            </div>
+        </div>
+    </section>
+    
+
+ 
+    <section id="projects">
+        <h1 class="text-center">Projects</h1>
+        <div class="container">
+            <!-- Project 1 -->
+            <a href = "https://poojitha3005.ccbp.tech" target="_blank" class="underline"><div class="row mb-4">
+                <div class="col-12 col-md-6  project-card col-lg-6 d-flex flex-column flex-md-row justify-content-center align-items-center">
+                    <div class="order-md-1 mb-3 mb-md-0">
+                        <img src="/home/rguktrkvalley/Downloads/pexels-chanwalrus-958545.jpg" class="pic img-fluid" alt="Food Munch Project"/>
+                    </div>
+                    <div class="col-12 col-md-6 order-md-2 text-center text-md-left">
+                        <h2 class="pic-head">Food Munch</h2>
+                        <p class="pic-para">A responsive website that lets you browse through a wide range of food items with ease.</p>
+                        <p class="tech-stack">Front-End: HTML, CSS, BOOTSTRAP</p>
+                    </div>
+                </div>
+            </div></a>
+            
+            <!-- Project 2 -->
+            <a href = "https://poojawikisearch.ccbp.tech" target="_blank" class = "underline"><div class="row mb-4">
+                <div class="col-12 col-md-6 project-card col-lg-6 d-flex flex-column flex-md-row justify-content-center align-items-center">
+                    <div class="order-md-1 mb-3 mb-md-0">
+                        <img src="/home/rguktrkvalley/Downloads/finger-pressing-search-engine.jpg" class="pic img-fluid" alt="Web Search Project"/>
+                    </div>
+                    <div class="col-12 col-md-6 order-md-2 text-center text-md-left">
+                        <h2 class="pic-head">Wikipedia search</h2>
+                        <p class="pic-para">A custom Wikipedia search application that provides a simplified and intuitive way for users
+                            to access and view relevant information.</p>
+                        <p class="tech-stack">Front-End: HTML, CSS, JS, REST API Calls, Bootstrap</p>
+                    </div>
+                </div>
+            </div></a>
+            
+            <!-- Project 3 -->
+            <div class="row mb-4">
+                <div class="col-12 project-card col-md-6 col-lg-6 d-flex flex-column flex-md-row justify-content-center align-items-center">
+                    <div class="order-md-1 mb-3 mb-md-0">
+                        <img src="/home/rguktrkvalley/Downloads/pexels-element5-1370295.jpg" class="pic img-fluid" alt="Library Information System Project"/>
+                    </div>
+                    <div class="col-12 col-md-6 order-md-2 text-center text-md-left">
+                        <h2 class="pic-head">Library Information System</h2>
+                        <p class="pic-para">Developed a comprehensive web-based library information system using Java, Apache NetBeans</p>
+                        <p class="tech-stack">Front-End: HTML, CSS, BOOTSTRAP, JSP</p>
+                        <p class="tech-stack">Back-End: JAVA, JDBC</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>Email: bonthupoojitha123@gmail.com</p>
+        <p>Phone No: +91 7032972738</p>
+        <a href = "https://www.linkedin.com/in/poojitha-bonthu-9241b624a" target="_blank"><i class="fa-brands fa-linkedin" id = "icon"></i></a>
+        <a href ="https://github.com/PoojithaBonthu" target="_blank"><i class="fa-brands fa-github " id = "icon"></i></a>
+    </section>
+    
+    <script src="portfolio.js"> 
+  
+</script>
+
+<script>
+    function toggleMenu() {
+        var nav = document.querySelector('.nav2');
+        nav.classList.toggle('active');  // Toggle the 'active' class
+    }
+</script>
+</body>
+
+
+</html>
